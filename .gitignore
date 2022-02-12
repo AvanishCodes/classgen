@@ -1,0 +1,8 @@
+# Virtual Environment
+venv/           
+# Build files
+build/          
+# Class generator files
+classgen.*/     
+# Distribution files
+dist/           
