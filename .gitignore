@@ -5,4 +5,6 @@ build/
 # Class generator files
 classgen.*/     
 # Distribution files
-dist/           
+dist/
+# Python cache files
+__pycache__/    

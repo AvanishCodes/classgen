@@ -63,7 +63,7 @@ class ClassGenerator():
         # Write details of methods
         docstring += ('\tMethods:\n')
         for getter in self.getters:
-            docstring += ('\t\t' + getter + '(self): Gets the ' + getter + ' of the ' + self.name + '.\n')
+            docstring += ('\t\t' + getter + '(self): Gets the ' + getter[4:] + ' of the ' + self.name + '.\n')
         for setter in self.setters:
             docstring += ('\t\t' + setter + '(self, ' + setter[4:] + ')' +  ': Sets the ' + setter[4:] + ' of the ' + self.name + '.\n')        
         docstring += ('\t\"\"\"\n')

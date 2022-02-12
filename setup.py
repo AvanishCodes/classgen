@@ -5,7 +5,7 @@ with open("README.md", "r") as file:
 
 setup(
     name="classgen",                            # This is the name of the package
-    version="0.0.3",                            # The initial release version
+    version="0.0.5",                            # The initial release version
     author="Avanish Gupta",                     # Full name of the author
     description="Generate classes in Python using command line arguments",
     long_description=long_description,      # Long description read from the the readme file
