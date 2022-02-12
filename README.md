@@ -4,7 +4,7 @@
 
 Example:
 
-> `python3 -m classgenerator ClassName member1,member2,member3`
+> `python3 -m classgen ClassName member1,member2,member3`
 
 ## Following is in the development phase
 

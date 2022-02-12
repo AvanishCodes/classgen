@@ -1,5 +1,5 @@
 from sys import modules
-from .classgenerator import ClassGenerator
+from .classgen import ClassGenerator
 
 
 # export the ClassGenerator class

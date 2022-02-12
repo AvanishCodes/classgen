@@ -1,4 +1,4 @@
-from .classgenerator import ClassGenerator
+from .classgen import ClassGenerator
 from argparse import ArgumentParser
 
 
